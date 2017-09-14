@@ -5,7 +5,7 @@ import java.util.Date;
  * Created by kdehaan on 13/09/17.
  */
 
-public class Tweet {
+public abstract class Tweet implements Tweetable {
     private String message;
     private Date date;
 
@@ -30,5 +30,5 @@ public class Tweet {
             throw new TweetTooLongException();
         }
     }
-
+    public abstract Boolean isImportant();
 }

@@ -6,18 +6,18 @@ import java.util.Date;
  * Created by kdehaan on 13/09/17.
  */
 
-public class ImportantTweet extends Tweet {
-    public ImportantTweet(String message){
+public class NormalTweet extends Tweet {
+    public NormalTweet(String message) {
         super(message);
-
     }
 
-    public ImportantTweet(String message, Date date){
+
+    public NormalTweet(String message, Date date) {
         super(message, date);
     }
 
     @Override
     public Boolean isImportant(){
-        return Boolean.TRUE;
+        return Boolean.FALSE;
     }
 }
