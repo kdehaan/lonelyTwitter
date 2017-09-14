@@ -30,5 +30,10 @@ public abstract class Tweet implements Tweetable {
             throw new TweetTooLongException();
         }
     }
+
+    public Date getDate() {
+        return date;
+    }
+
     public abstract Boolean isImportant();
 }
