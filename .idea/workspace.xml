@@ -5,19 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73593c67-d973-4eb3-aa86-179cd599c155" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/BadMood.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/BadMood.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/GoodMood.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/GoodMood.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/ImportantTweet.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/ImportantTweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Mood.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Mood.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/NormalTweet.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/NormalTweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweet.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/TweetTooLongException.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/TweetTooLongException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweetable.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweetable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allclasses-frame.html" afterPath="$PROJECT_DIR$/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allclasses-noframe.html" afterPath="$PROJECT_DIR$/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/BadMood.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/BadMood.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/BuildConfig.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/BuildConfig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/GoodMood.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/GoodMood.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/ImportantTweet.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/ImportantTweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivityTest.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivityTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/Mood.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/Mood.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/NormalTweet.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/NormalTweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.attr.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.attr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.drawable.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.drawable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.id.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.id.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.layout.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.string.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/R.string.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/Tweet.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/Tweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/TweetTooLongException.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/TweetTooLongException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/Tweetable.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/Tweetable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/package-frame.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/package-summary.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/package-tree.html" afterPath="$PROJECT_DIR$/ca/ualberta/cs/lonelytwitter/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/constant-values.html" afterPath="$PROJECT_DIR$/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deprecated-list.html" afterPath="$PROJECT_DIR$/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help-doc.html" afterPath="$PROJECT_DIR$/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-1.html" afterPath="$PROJECT_DIR$/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-10.html" afterPath="$PROJECT_DIR$/index-files/index-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-11.html" afterPath="$PROJECT_DIR$/index-files/index-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-12.html" afterPath="$PROJECT_DIR$/index-files/index-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-13.html" afterPath="$PROJECT_DIR$/index-files/index-13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-14.html" afterPath="$PROJECT_DIR$/index-files/index-14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-15.html" afterPath="$PROJECT_DIR$/index-files/index-15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-16.html" afterPath="$PROJECT_DIR$/index-files/index-16.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-2.html" afterPath="$PROJECT_DIR$/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-3.html" afterPath="$PROJECT_DIR$/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-4.html" afterPath="$PROJECT_DIR$/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-5.html" afterPath="$PROJECT_DIR$/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-6.html" afterPath="$PROJECT_DIR$/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-7.html" afterPath="$PROJECT_DIR$/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-8.html" afterPath="$PROJECT_DIR$/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-files/index-9.html" afterPath="$PROJECT_DIR$/index-files/index-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overview-tree.html" afterPath="$PROJECT_DIR$/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serialized-form.html" afterPath="$PROJECT_DIR$/serialized-form.html" />
     </list>
     <ignored path="lonelyTwitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,10 +123,9 @@
           <file leaf-file-name="ImportantTweet.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/ImportantTweet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
+                <state relative-caret-position="162">
+                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
                   <folding>
-                    <element signature="e#0#1223#0" expanded="true" />
                     <element signature="e#801#802#0" expanded="true" />
                     <element signature="e#831#832#0" expanded="true" />
                     <element signature="e#1184#1185#0" expanded="true" />
@@ -2385,8 +2415,6 @@
           <folding>
             <element signature="e#801#802#0" expanded="true" />
             <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
             <element signature="e#1184#1185#0" expanded="true" />
             <element signature="e#1219#1220#0" expanded="true" />
           </folding>
@@ -2488,8 +2516,6 @@
           <folding>
             <element signature="e#801#802#0" expanded="true" />
             <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
             <element signature="e#1184#1185#0" expanded="true" />
             <element signature="e#1219#1220#0" expanded="true" />
           </folding>
@@ -2591,8 +2617,6 @@
           <folding>
             <element signature="e#801#802#0" expanded="true" />
             <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
             <element signature="e#1184#1185#0" expanded="true" />
             <element signature="e#1219#1220#0" expanded="true" />
           </folding>
@@ -2694,8 +2718,6 @@
           <folding>
             <element signature="e#801#802#0" expanded="true" />
             <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
             <element signature="e#1184#1185#0" expanded="true" />
             <element signature="e#1219#1220#0" expanded="true" />
           </folding>
@@ -2797,8 +2819,6 @@
           <folding>
             <element signature="e#801#802#0" expanded="true" />
             <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
             <element signature="e#1184#1185#0" expanded="true" />
             <element signature="e#1219#1220#0" expanded="true" />
           </folding>
@@ -2941,27 +2961,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/ImportantTweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="108" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
-          <folding>
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweetable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#0#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/ImportantTweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
           </folding>
         </state>
       </provider>
