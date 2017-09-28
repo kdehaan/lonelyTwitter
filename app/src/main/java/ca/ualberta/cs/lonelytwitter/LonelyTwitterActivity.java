@@ -1,3 +1,14 @@
+/*
+ * LonelyTwitterActivity
+ *
+ * Version 1.0
+ *
+ * September 27, 2017
+ *
+ * Copyright © 2017 Kevin de Haan, CMPUT301, University of Alberta - All Rights Reserved.
+ * You may use, distribute, or modify this code under terms and conditions of the COde of Student Behavior at the University of Alberta.
+ * You can find a copy of the license in this project. Otherwise please contact kdehaan@ualberta.ca
+ */
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;
@@ -6,7 +17,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -25,6 +35,14 @@ import android.widget.ListView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+/**
+ * Main activity for app
+ * @author kdehaan
+ * @version 1.5
+ * @see Tweet
+ * @since 1.0
+ * Created by kdehaan on 13/09/17.
+ */
 public class LonelyTwitterActivity extends Activity {
 
 	private static final String FILENAME = "file.sav";
@@ -33,8 +51,12 @@ public class LonelyTwitterActivity extends Activity {
 
     private ArrayList<Tweet> tweets = new ArrayList<Tweet>();
     private ArrayAdapter<Tweet> adapter;
-	
-	/** Called when the activity is first created. */
+
+    /**
+     * Called when the activity is first created.
+     *
+     * @param savedInstanceState saved instance state
+     */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -54,23 +76,7 @@ public class LonelyTwitterActivity extends Activity {
                 tweets.add(new NormalTweet(text));
                 adapter.notifyDataSetChanged();
                 saveInFile();
-/*
-				ImportantTweet tweet = new ImportantTweet("");
-                NormalTweet tweet1 = new NormalTweet("hi");
-				try {
-					tweet.setMessage("hello");
-				} catch (TweetTooLongException e) {
-//					e.printStackTrace();
-				}
 
-				Tweetable tweet3 = new ImportantTweet("");
-
-				ArrayList<Tweet> tweetList = new ArrayList<Tweet>();
-                tweetList.add(tweet);
-                tweetList.add(tweet1);
-//				Log.d("", "The isImportant method returns " + tweet.isImportant());
-//              Log.d("", "The isImportant method returns " + tweet1.isImportant());
-				//finish();*/
 
 			}
 		});
@@ -85,6 +91,10 @@ public class LonelyTwitterActivity extends Activity {
 		});
 	}
 
+    /**
+     * Loads from file on start
+     *
+     */
 	@Override
 	protected void onStart() {
 		// TODO Auto-generated method stub
@@ -94,7 +104,10 @@ public class LonelyTwitterActivity extends Activity {
 		oldTweetsList.setAdapter(adapter);
 	}
 
-
+    /**
+     * Loads tweets from file
+     *
+     */
 	private void loadFromFile() {
 		try {
 			FileInputStream fis = openFileInput(FILENAME);
@@ -112,7 +125,11 @@ public class LonelyTwitterActivity extends Activity {
 			throw new RuntimeException(e);
 		}
 	}
-	
+
+    /**
+     * Saves tweets to file
+     *
+     */
 	private void saveInFile() {
 		try {
 			FileOutputStream fos = openFileOutput(FILENAME,
