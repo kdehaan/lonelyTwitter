@@ -14,12 +14,20 @@ public class TweetList {
 
     }
 
-    public void add(Tweet tweet) {
+    public void add(Tweet tweet) throws IllegalArgumentException {
+        if (this.hasTweet(tweet)) {
+            throw new IllegalArgumentException("Duplicate Tweet");
+        }
         tweets.add(tweet);
     }
 
     public Boolean hasTweet(Tweet tweet) {
-        return tweets.contains(tweet);
+        for(Tweet object: tweets) {
+            if( object.equals(tweet)) {
+                return Boolean.TRUE;
+            }
+        }
+        return Boolean.FALSE;
     }
 
     public void delete(Tweet tweet) {
@@ -29,4 +37,12 @@ public class TweetList {
     public Tweet getTweet(int index) {
         return tweets.get(index);
     }
+    public ArrayList<Tweet> getTweets() {
+        return tweets;
+    }
+
+    public int getCount() {
+        return tweets.size();
+    }
+
 }
