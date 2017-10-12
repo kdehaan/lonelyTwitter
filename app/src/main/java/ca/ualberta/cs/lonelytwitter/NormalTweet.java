@@ -13,7 +13,5 @@ public class NormalTweet extends Tweet implements Tweetable {
         return false;
     }
 
-    public String getMessage() {
-        return this.message;
-    }
+
 }

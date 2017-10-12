@@ -14,20 +14,18 @@ public class TweetListTest extends ActivityInstrumentationTestCase2 {
 
     public void testAddTweet() {
         TweetList list = new TweetList();
-        Tweet tweet = new NormalTweet("Test");
-        list.delete(tweet);
-        assertTrue(!list.hasTweet(tweet));
+        Tweet tweet = new NormalTweet("adding tweet");
         list.add(tweet);
         assertTrue(list.hasTweet(tweet));
     }
 
     public void testDelete() {
         TweetList list = new TweetList();
-        Tweet tweet = new NormalTweet("Test");
+        Tweet tweet = new NormalTweet("removing tweet");
         list.add(tweet);
-        assertTrue(list.hasTweet(tweet));
         list.delete(tweet);
-        assertTrue(!list.hasTweet(tweet));
+
+        assertFalse(list.hasTweet(tweet));
     }
 
     public void testHasTweet() {
@@ -35,5 +33,13 @@ public class TweetListTest extends ActivityInstrumentationTestCase2 {
         Tweet tweet = new NormalTweet("Test");
         list.add(tweet);
         assertTrue(list.hasTweet(tweet));
+    }
+
+    public void testGetTweet() {
+        TweetList list = new TweetList();
+        Tweet tweet = new NormalTweet("Test");
+        list.add(tweet);
+        Tweet returnedTweet = list.getTweet(0);
+        assertEquals(tweet.getMessage(), returnedTweet.getMessage());
     }
 }

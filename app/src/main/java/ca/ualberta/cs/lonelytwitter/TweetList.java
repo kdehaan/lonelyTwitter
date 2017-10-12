@@ -25,4 +25,8 @@ public class TweetList {
     public void delete(Tweet tweet) {
         tweets.remove(tweet);
     }
+
+    public Tweet getTweet(int index) {
+        return tweets.get(index);
+    }
 }
