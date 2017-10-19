@@ -34,6 +34,8 @@ public class LonelyTwitterActivity extends Activity {
 	private ArrayList<Tweet> tweetList = new ArrayList<Tweet>();
 	private ArrayAdapter<Tweet> adapter;
 
+    public static final Integer EDIT_CODE = 2;
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -68,10 +70,16 @@ public class LonelyTwitterActivity extends Activity {
         oldTweetsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(activity, EditTweetActivity.class);
+                Gson gson = new Gson();
+                Object o = oldTweetsList.getItemAtPosition(position);
+                Tweet viewedTweet = (Tweet)o;
+                String gsonCounter = gson.toJson(viewedTweet);
+                intent.putExtra("tweet", gsonCounter);
                 startActivity(intent);
             }
         });
 	}
+
 
 	@Override
 	protected void onStart() {

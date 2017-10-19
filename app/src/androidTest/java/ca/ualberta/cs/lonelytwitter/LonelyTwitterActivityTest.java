@@ -2,7 +2,9 @@ package ca.ualberta.cs.lonelytwitter;
 
 import android.app.Activity;
 import android.test.ActivityInstrumentationTestCase2;
+import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.robotium.solo.Solo;
 
@@ -49,6 +51,9 @@ public class LonelyTwitterActivityTest extends ActivityInstrumentationTestCase2<
 
         solo.clickInList(0);
         solo.assertCurrentActivity("Wrong activity", EditTweetActivity.class);
+        solo.waitForText("click this");
+        boolean exists = solo.searchText("click this");
+        assertTrue(exists);
     }
 
     /**
