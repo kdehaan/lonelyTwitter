@@ -52,7 +52,7 @@ public class LonelyTwitterActivityTest extends ActivityInstrumentationTestCase2<
         solo.clickInList(0);
         solo.assertCurrentActivity("Wrong activity", EditTweetActivity.class);
         solo.waitForText("click this");
-        boolean exists = solo.searchText("click this");
+        boolean exists = solo.searchText("click this", true);
         assertTrue(exists);
     }
 
