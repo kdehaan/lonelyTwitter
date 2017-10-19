@@ -1,11 +1,13 @@
 package ca.ualberta.cs.lonelytwitter;
 
 import android.app.Activity;
-
-/**
- * Created by kdehaan on 18/10/17.
- */
+import android.os.Bundle;
 
 public class EditTweetActivity extends Activity {
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_edit_tweet);
+    }
 }

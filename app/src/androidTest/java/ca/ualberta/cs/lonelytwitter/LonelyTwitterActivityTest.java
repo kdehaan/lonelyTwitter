@@ -40,6 +40,17 @@ public class LonelyTwitterActivityTest extends ActivityInstrumentationTestCase2<
         solo.clickOnButton("Clear");
     }
 
+    public void testClickTweetList() {
+        solo.assertCurrentActivity("Wrong activity", LonelyTwitterActivity.class);
+        solo.clickOnButton("Clear");
+        solo.enterText((EditText) solo.getView(R.id.body), "click this");
+        solo.clickOnButton("Save");
+        solo.waitForText("click this");
+
+        solo.clickInList(0);
+        solo.assertCurrentActivity("Wrong activity", EditTweetActivity.class);
+    }
+
     /**
      * Runs at the end of the tests
      * @throws Exception
