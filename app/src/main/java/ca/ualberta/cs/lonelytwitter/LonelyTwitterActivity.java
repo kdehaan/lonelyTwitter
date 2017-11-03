@@ -9,10 +9,10 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Date;
+//Removed unused import
 
 import android.app.Activity;
-import android.content.Context;
+//Removed unused import
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -27,14 +27,16 @@ import com.google.gson.reflect.TypeToken;
 
 
 public class LonelyTwitterActivity extends Activity {
-    private LonelyTwitterActivity activity = this;
+	// added final modifier to declaration
+    private final LonelyTwitterActivity activity = this;
 	private static final String FILENAME = "file.sav";
 	private EditText bodyText;
 	private ListView oldTweetsList;
 	private ArrayList<Tweet> tweetList = new ArrayList<Tweet>();
 	private ArrayAdapter<Tweet> adapter;
 
-    public static final Integer EDIT_CODE = 2;
+
+    // --Commented out by Inspection (03/11/17 1:18 PM):public static final Integer EDIT_CODE = 2;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

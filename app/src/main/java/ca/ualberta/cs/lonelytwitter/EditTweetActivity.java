@@ -8,8 +8,6 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 
 public class EditTweetActivity extends Activity {
-    private Intent intent;
-    private NormalTweet tweet;
 
 
     @Override
@@ -17,11 +15,13 @@ public class EditTweetActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_tweet);
 
-        intent = getIntent();
+        // Made intent local: class structure formatting
+        Intent intent = getIntent();
         String gsonTweet = intent.getStringExtra("tweet");
         Gson gson = new Gson();
 
-        tweet = gson.fromJson(gsonTweet, NormalTweet.class);
+        // Made tweet local
+        NormalTweet tweet = gson.fromJson(gsonTweet, NormalTweet.class);
         TextView tweetText = (TextView) findViewById(R.id.textView);
         tweetText.setText(tweet.getMessage());
 
